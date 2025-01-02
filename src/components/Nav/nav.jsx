@@ -1,10 +1,11 @@
 import './nav.css';
 import logo from '../../assets/logo.png';
+import { FaInstagram } from "react-icons/fa";
 
 function Nav(){
     return(
         <nav>
-            <div className='nav-left'>
+            <div className='nav-container nav-left'>
                 <ul>
                     <li>
                         <a href='/'>Home</a>
@@ -17,11 +18,11 @@ function Nav(){
                     </li>
                 </ul>
             </div>
-            <div className='nav-center'>
-                <img src={logo} />
+            <div className='nav-container  nav-center'>
+                <img id='nav-logo' src={logo} alt='ChureThing logo, states ChureThing in a vintage-style serif black font with overlapping cream and magenta trapezoids surrounding it. There are bubbles and stars in a 50s style look.' />
             </div>
-            <div className='nav-right'>
-
+            <div className='nav-container  nav-right'>
+                <FaInstagram className='nav-icon' />
             </div>
         </nav>
     )

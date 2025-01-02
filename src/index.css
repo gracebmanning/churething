@@ -1,3 +1,38 @@
+:root{
+  --cream: #FEFAE0;
+  --teal: #4F948A;
+  --magenta: #BF579B;
+}
+
 body {
   margin: 0;
+  font-size: 16px;
+  color: var(--magenta);
+  line-height: 1.2em;
+
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-size: 4.5rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+h3{
+  font-size: 2.5rem;
+}
+
+h4{
+  font-size: 2rem;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border: none;
 }
